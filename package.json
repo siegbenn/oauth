@@ -1,0 +1,25 @@
+{
+  "name": "oauth",
+  "version": "1.0.0",
+  "description": "OAuth 2.0 Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "oauth",
+    "oauth2",
+    "oauth2.0",
+    "server",
+    "provider",
+    "mongodb"
+  ],
+  "author": "Bennett Siegel",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "express": "^4.9.5",
+    "mongoose": "^3.8.17",
+    "oauth2-server": "^2.3.0"
+  }
+}
